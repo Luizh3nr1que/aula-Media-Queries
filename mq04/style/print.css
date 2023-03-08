@@ -1,0 +1,42 @@
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    h1 {
+        text-shadow: none;
+        color: black;
+
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #print {
+        display: block;
+        margin: auto;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    #tv {
+        display: none;
+    }
+
+    main::after {
+        content: 'site feito por luizh3nrique';
+        text-decoration: underline;
+    }
+}
